@@ -10,6 +10,95 @@
         <link rel="stylesheet" href="third_party/css/mysite.css">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="This shop is awesome.">
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org/",
+                "@type": "Recipe",
+                "name": "Party Coffee Cake",
+                "image": "https://www.leannebrown.com/wp-content/uploads/2016/12/up-close-pear-cake.jpg",
+                "author": {
+                  "@type": "Person",
+                  "name": "Mary Stone"
+                },
+                "datePublished": "2018-03-10",
+                "description": "This coffee cake is awesome and perfect for parties.",
+                  "prepTime": "PT20M",
+                  "cookTime": "PT30M",
+                  "totalTime": "PT50M",
+                  "recipeYield": "10 servings",
+                  "recipeCategory": "Dessert",
+                  "recipeCuisine": "American",
+                  "keywords": "cake for a party, coffee",
+                  "nutrition": {
+                    "@type": "NutritionInformation",
+                    "calories": "270 calories"
+                   },
+                    "recipeIngredient": [
+                      "2 cups of flour",
+                      "3/4 cup white sugar",
+                      "2 teaspoons baking powder",
+                      "1/2 teaspoon salt",
+                      "1/2 cup butter",
+                      "2 eggs",
+                      "3/4 cup milk"
+                     ],
+                  "recipeInstructions": [
+                    {
+                    "@type": "HowToStep",
+                    "text": "Preheat the oven to 350 degrees F. Grease and flour a 9x9 inch pan."
+                    },
+                    {
+                    "@type": "HowToStep",
+                    "text": "In a medium bowl, combine flour, sugar, and cinnamon."
+                    },
+                    {
+                    "@type": "HowToStep",
+                    "text": "Mix in butter until the entire mixture is crumbly."
+                    },
+                    {
+                    "@type": "HowToStep",
+                    "text": "In a large bowl, combine flour, sugar, baking powder, and salt."
+                    },
+                    {
+                    "@type": "HowToStep",
+                    "text": "Mix in the butter."
+                    },
+                    {
+                    "@type": "HowToStep",
+                    "text": "Spread into the prepared pan."
+                    },
+                    {
+                    "@type": "HowToStep",
+                    "text": "Sprinkle the streusel mixture on top of the cake."
+                    },
+                    {
+                    "@type": "HowToStep",
+                    "text": "Bake for 30 to 35 minutes, or until firm."
+                    },
+                    {
+                    "@type": "HowToStep",
+                    "text": "Allow to cool."
+                   }
+                ],
+                "video": [
+                   {
+                  "name": "How to make a Party Coffee Cake",
+                  "description": "This is how you make a Party Coffee Cake.",
+                  "thumbnailUrl": [
+                    "https://example.com/photos/1x1/photo.jpg",
+                    "https://example.com/photos/4x3/photo.jpg",
+                    "https://example.com/photos/16x9/photo.jpg"
+                   ],
+                  "contentUrl": "http://www.example.com/video123.flv",
+                  "embedUrl": "http://www.example.com/videoplayer.swf?video=123",
+                  "uploadDate": "2018-02-05T08:00:00+08:00",
+                  "duration": "PT1M33S",
+                  "interactionCount": "2347",
+                  "expires": "2019-02-05T08:00:00+08:00"
+                 }
+                ]
+              }
+        </script>
     </head>
 
     <body>
@@ -44,10 +133,10 @@
             </div>
             <!-- /.container -->
         </nav>
-    
+
         <!-- Page Content -->
         <div class="container">
-    
+
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
                 <div class="col-lg-12">
@@ -64,7 +153,7 @@
                 </div>
             </div>
             <!-- /.row -->
-    
+
             <!-- Features Section -->
             <div class="row">
                 <div class="col-lg-12">
@@ -91,15 +180,15 @@
                         <p>Cook time: 30 minutes</p>
                         <p>Total time: 50 minutes</p>
                         <li>Preheat the oven to 350 degrees F. Grease and flour a 9x9 inch pan.</li>
-                        <li>Make the streusal topping. In a medum bowl, combine flour, sugar, and cinnamon. Mix in butter 
+                        <li>Make the streusal topping. In a medum bowl, combine flour, sugar, and cinnamon. Mix in butter
                             until the entire mixture is crumbly.</li>
-                        <li>In a large bowl, combine flour, sugar, baking powder, and salt. Mix in the butter. Mix in the 
+                        <li>In a large bowl, combine flour, sugar, baking powder, and salt. Mix in the butter. Mix in the
                             milk, egg, and vanilla. Spread into the prepared pan. </li>
                         <li>Sprinkle the streudal mixture on top of the cake.</li>
                         <li>Bake for 30 to 35 minutes, or until firm. Allow to cool.</li>
                         </ol>
                     <h2>Nutrition facts</h2>
-                    <p>Per slice: 270 calories; 12 g fat; 37 carbohydrates; 2 g protein; 45 mg cholesterol; 
+                    <p>Per slice: 270 calories; 12 g fat; 37 carbohydrates; 2 g protein; 45 mg cholesterol;
                         195 mg sodium.</p>
                 </div>
                 <div class="col-md-6">
@@ -145,7 +234,7 @@
                     <p><a href=#>(Expand all reviews)</a></p>
                 </div>
                 <!-- /list of reviews -->
-                
+
                 <!-- submit review column -->
                 <div class="col-md-6">
                     <form name="sentMessage" id="newReview" novalidate>
@@ -154,7 +243,7 @@
                         <div class="control-group form-group">
                             <div class="controls">
                                 <label>Your Name:</label>
-                                <input type="text" class="form-control" id="name" 
+                                <input type="text" class="form-control" id="name"
                                     required data-validation-required-message="Please enter your name.">
                                 <p class="help-block"></p>
                             </div>
@@ -163,7 +252,7 @@
                             <div class="controls">
                                 <label>Rating:</label>
 
-                                <select name="review" id="review" class="form-control" 
+                                <select name="review" id="review" class="form-control"
                                     required data-validation-required-message="Please select a rating.">
                                     <option value="5">5 Stars (*****)</option>
                                     <option value="4">4 Stars (****)</option>
@@ -177,8 +266,8 @@
                         <div class="control-group form-group">
                             <div class="controls">
                                 <label>Review text:</label>
-                                <textarea rows="5" cols="100" class="form-control" id="message" 
-                                    required data-validation-required-message="Please enter your message" 
+                                <textarea rows="5" cols="100" class="form-control" id="message"
+                                    required data-validation-required-message="Please enter your message"
                                     maxlength="999" style="resize:none"></textarea>
                             </div>
                         </div>
@@ -190,9 +279,9 @@
             </div>
 
             <!-- /.row -->
-                
+
             <hr>
-    
+
             <!-- Call to Action Section -->
             <div class="well">
                 <div class="row">
@@ -204,23 +293,23 @@
                     </div>
                 </div>
             </div>
-    
+
             <hr>
-    
+
             <!-- Footer -->
             <footer>
                 <div class="row">
                     <div class="col-lg-12">
-                        <p>Copyright &copy; Home of the best cakes, 2018 | 
+                        <p>Copyright &copy; Home of the best cakes, 2018 |
                             <a href="http://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a></p>
                     </div>
                 </div>
             </footer>
-    
+
         </div>
         <!-- /.container -->
-    
 
-    
+
+
     </body>
 </html>
