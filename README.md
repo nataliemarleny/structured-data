@@ -1,11 +1,18 @@
 Add structured data to your web pages
 ============
 
-This codelab walks you through adding structured data to a simple HTML site, including where to place your structured data on a site and how to validate structured data. 
+This codelab walks you through adding structured data to a simple HTML site, including where to place your structured data on a site and how to validate structured data.
+
+Further Reading
+------------
+Discover different features and types of markup available in the [Search Gallery](https://developers.google.com/search/docs/guides/search-gallery)
+Use a [sitemap file](https://developers.google.com/search/docs/guides/create-URLs) to help search engine crawlers find your URLs
+Get help with your structured data in the [Webmaster Forum](https://productforums.google.com/forum/#!forum/webmasters)
+Monitor your site with [Search Console](https://support.google.com/webmasters/answer/9128668?hl=en&ref_topic=3309469&visit_id=636881776844496220-1438017990&rd=1)
 
 Introduction
 ------------
-Google Search works hard to understand the content of a web page. You can help us by providing explicit clues about the meaning of a page with structured data. 
+Google Search works hard to understand the content of a web page. You can help us by providing explicit clues about the meaning of a page with structured data.
 
 Structured data provides a way to standardize information about a page and classify the page content. We also use structured data to enable special search result features and enhancements. For example, a recipe page with valid structured data can be eligible to appear in a graphical search result, which we call a rich result in a host carousel.
 
